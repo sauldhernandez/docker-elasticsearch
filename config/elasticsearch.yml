@@ -26,3 +26,7 @@ http:
 discovery:
   zen:
     minimum_master_nodes: ${NUMBER_OF_MASTERS}
+
+thread_pool:
+  index:
+    queue_size: 1500
