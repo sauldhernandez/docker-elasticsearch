@@ -30,3 +30,5 @@ discovery:
 thread_pool:
   index:
     queue_size: 1500
+  bulk:
+    queue_size: 1500
